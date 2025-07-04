@@ -1,0 +1,32 @@
+/* About Section */
+.about {
+    padding: 60px 20px;
+    background: var(--white);
+}
+
+.about-content {
+    text-align: center;
+}
+
+.about-text h2 {
+    font-size: var(--font-size-xxl);
+    color: var(--dark-color);
+    margin-bottom: var(--spacing-md);
+}
+
+.about-text p {
+    color: var(--gray-medium);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.7;
+}
+
+.about-image {
+    margin-top: var(--spacing-lg);
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+}

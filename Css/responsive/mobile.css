@@ -1,0 +1,36 @@
+/* Mobile styles */
+@media (max-width: 480px) {
+    .hero {
+        min-height: 80vh;
+        padding: 100px 20px 40px;
+    }
+
+    .hero-content {
+        padding: var(--spacing-lg);
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: var(--font-size-xxl);
+    }
+
+    .hero-content p {
+        font-size: var(--font-size-normal);
+    }
+
+    .section-title {
+        font-size: var(--font-size-xl);
+    }
+
+    .post-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .about-text h2 {
+        font-size: var(--font-size-xl);
+    }
+
+    .contact-info h3 {
+        font-size: 1.3rem;
+    }
+}

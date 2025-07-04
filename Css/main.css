@@ -1,0 +1,19 @@
+/* Main CSS File - Import all components */
+
+/* Base Styles */
+@import 'base/variables.css';
+@import 'base/reset.css';
+@import 'base/typography.css';
+
+/* Components */
+@import 'components/header.css';
+@import 'components/hero.css';
+@import 'components/posts.css';
+@import 'components/about.css';
+@import 'components/contact.css';
+@import 'components/footer.css';
+@import 'components/animations.css';
+
+/* Responsive Styles */
+@import 'responsive/tablet.css';
+@import 'responsive/mobile.css';
